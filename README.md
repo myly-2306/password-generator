@@ -16,4 +16,6 @@ This is how it looks when you run it
 This is how it will look if you choose 9 character long and include all criteria
 ![image](https://user-images.githubusercontent.com/83524121/124701346-4397f600-dea3-11eb-82b4-68f418f15bbe.png)
 
+Here is the link if you want to check it out: https://myly-2306.github.io/password-generator/
+
 Thanks for stopping by!
