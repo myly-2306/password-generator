@@ -1,5 +1,5 @@
 // Assignment Code
-// var generateBtn = document.querySelector("#generate")
+
 
 lowercase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -9,12 +9,7 @@ var toUpper = function (x) {
   return x.toUpperCase();
 };
 uppercase = lowercase.map(toUpper);
-// var characterAmount = (UPPERCASE, lowercase, number, specialSymbol)
 
-
-// generateBtn.addEventListener("submit", function(e)) {
-//   e.preventDefault()
-// }
 
 
 function length() {
@@ -113,35 +108,6 @@ function length() {
   console.log (generatedPassword);
   return generatedPassword;
   
-
-
 }
 
-// // Write password to the #password input
-// function numberInput() {
-//     characterAmount = window.prompt("How many characters do you want to generate?")}
-//   if (passwordRange < 8) {
-//     alert("Password has to be more than 8 characters length");
-//   } else (passwordRange > 128) {
-//     alert("Password has to be less than 128 characters length");
-  // } else {
-  //   document.getElementById("password").innerHTML = ""
-  // }
-  
 
-//   var password = generatePassword();
-//   var passwordText = document.querySelector("#password");
-
-//   passwordText.value = password;
-// }
-
-// // prevent generate password button to refresh the page
-
-//   var characterNumber = window.prompt("How many characters do you want to generate?")
-//   // chracters amount are  more than 8
-//   if 
-// }
-
-
-// Add event listener to generate button
-// generateBtn.addEventListener("click", writePassword);
