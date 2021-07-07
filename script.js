@@ -102,14 +102,17 @@ function length() {
 
   // create random selection from criteria
   for (var i = 0; i < length; i++) {
-    var passwordBox = document.getElementById("password-box").innerHTML=
+    var character =
     choices[Math.floor(Math.random() * choices.length)];
-    password.push(passwordBox);
+    password.push(character);
   }
 
   // Join the password array and turn it into a string
   var generatedPassword = password.join("");
+  var passwordBox = document.getElementById("password-box").innerHTML=generatedPassword
+  console.log (generatedPassword);
   return generatedPassword;
+  
 
 
 }
